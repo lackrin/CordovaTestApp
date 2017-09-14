@@ -1,0 +1,14 @@
+{
+    "name": "HelloWorldwithSQL",
+    "version": "1.0.0",
+    "private": true,
+    "dependencies": {
+    },
+    "cordova": {
+        "plugins": {
+            "cordova-plugin-whitelist": {},
+            "cordova-plugin-device": {},
+            "cordova-plugin-dialogs": {}
+        }
+    }
+}

@@ -1,0 +1,82 @@
+{
+    "cordova-plugin-whitelist": {
+        "source": {
+            "type": "registry",
+            "id": "cordova-plugin-whitelist@1"
+        },
+        "is_top_level": true,
+        "variables": {}
+    },
+    "cordova-plugin-device": {
+        "source": {
+            "type": "registry",
+            "id": "cordova-plugin-device"
+        },
+        "is_top_level": true,
+        "variables": {}
+    },
+    "cordova-plugin-dialogs": {
+        "source": {
+            "type": "registry",
+            "id": "cordova-plugin-dialogs"
+        },
+        "is_top_level": true,
+        "variables": {}
+    },
+    "kapsel-plugin-authproxy": {
+        "source": {
+            "type": "local",
+            "path": "C:\\SAP\\MobileSDK3\\KapselSDK\\plugins\\authproxy"
+        },
+        "is_top_level": false,
+        "variables": {}
+    },
+    "kapsel-plugin-inappbrowser": {
+        "source": {
+            "type": "local",
+            "path": "C:\\SAP\\MobileSDK3\\KapselSDK\\plugins\\inappbrowser"
+        },
+        "is_top_level": false,
+        "variables": {}
+    },
+    "kapsel-plugin-i18n": {
+        "source": {
+            "type": "local",
+            "path": "C:\\SAP\\MobileSDK3\\KapselSDK\\plugins\\i18n"
+        },
+        "is_top_level": false,
+        "variables": {}
+    },
+    "kapsel-plugin-logon": {
+        "source": {
+            "type": "local",
+            "path": "C:\\SAP\\MobileSDK3\\KapselSDK\\plugins\\logon"
+        },
+        "is_top_level": true,
+        "variables": {}
+    },
+    "kapsel-plugin-ui5": {
+        "source": {
+            "type": "local",
+            "path": "C:\\SAP\\MobileSDK3\\KapselSDK\\plugins\\ui5"
+        },
+        "is_top_level": false,
+        "variables": {}
+    },
+    "kapsel-plugin-corelibs": {
+        "source": {
+            "type": "local",
+            "path": "C:\\SAP\\MobileSDK3\\KapselSDK\\plugins\\corelibs"
+        },
+        "is_top_level": false,
+        "variables": {}
+    },
+    "cordova-plugin-network-information": {
+        "source": {
+            "type": "registry",
+            "id": "cordova-plugin-network-information"
+        },
+        "is_top_level": true,
+        "variables": {}
+    }
+}

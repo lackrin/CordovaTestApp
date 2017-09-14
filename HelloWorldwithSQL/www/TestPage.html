@@ -1,0 +1,50 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <script type="text/javascript" src="cordova.js"></script>
+    <script type="text/javascript" src="scripts/DbScriptBase.js"></script>
+    <script type="text/javascript" src="scripts/DemoDbScript.js"></script>
+    <script type="text/javascript">
+        document.addEventListener("deviceready", onDeviceReady, false);
+
+        function onDeviceReady() {
+            document.getElementById('qrpopup').style.display = 'none';
+        }
+
+        function goPopup(row, rowname, rownum) {
+            currentRow=row;
+            document.getElementById("qrpopup").style.display="block" ;
+            document.getElementById("editNameBox").value=rowname;
+            document.getElementById("editNumberBox").value=rownum;
+        }
+    </script>
+
+    <link rel="stylesheet" type="text/css" href="css/TestPage.css">
+    <title>Test Page One</title>
+
+</head>
+<body>
+    <h1>Test Page</h1>
+    <p>Open Database</p>
+    <div id="qrpopup">
+        <hr />
+        <input type="text" id="editNameBox"><br>
+        <input type="text" id="editNumberBox"><br>
+        <button onclick="goDelete()">Delete</button>
+        <button onclick="goEdit()">Edit</button>
+        <button onclick="document.getElementById('qrpopup').style.display='none';">Discard</button>
+        <hr />
+    </div>
+    <div>
+        <label>Name</label><input type="text" value="" id="txtName"><br>
+        <label>Number</label><input type="text" value="" id="txtNumber"><hr />
+    </div>
+    <div id="tblDiv"></div>
+    <div style="text-align: center">
+        <button onclick="goInsert()">Insert</button>
+        <button onclick="goSearch()">Search</button>
+        <button onclick="successCB()">Show All</button>
+    </div>
+    
+</body>
+</html>
